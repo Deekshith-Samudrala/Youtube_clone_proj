@@ -44,10 +44,14 @@
 }
 
 .video-author{
-    font-size: 12px;
+    font-size: 14px;
     color:rgb(189, 189, 189);
-    margin-bottom: 4px;
+    margin-bottom: 7px;
     font-weight: 400;
+}
+
+.video-author:hover{
+    color:rgb(255, 254, 254);
 }
 
 .video-stats{

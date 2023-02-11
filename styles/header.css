@@ -48,8 +48,15 @@
     margin-right: 31px;
 }
 
+.hamburger-menu:hover{
+    cursor: pointer;
+}
 .yt-logo{
     height: 40px;
+}
+
+.yt-logo{
+    cursor: pointer;
 }
 
 .search-bar{
@@ -58,7 +65,7 @@
     padding-left: 12px;
     border-width: 1px; 
     border-style: solid;
-    border-color: white;
+    border-color: rgb(41, 39, 39);
     border-radius: 20px;
     background-color: rgb(15,15,15);
     margin-right: 10px;
@@ -73,8 +80,8 @@
 .search-button{
     height: 43px;
     width: 60px;
-    background-color: rgb(48,48,48);
-    border-color: white;
+    background-color: rgb(39, 37, 37);
+    border-color: rgb(41, 39, 39);
     border-width: 1px;
     border-radius: 20px;
     margin-left: -1px;
@@ -130,9 +137,13 @@
     height: 40px;
     width: 40px;
     border-radius: 20px;
-    background-color:rgb(48,48,48);
+    background-color:rgb(27, 26, 26);
     border: none;
     position: relative;
+}
+
+.voice-search-button:hover{
+    background-color:rgb(43, 41, 41);   
 }
 
 .voice-search-icon{

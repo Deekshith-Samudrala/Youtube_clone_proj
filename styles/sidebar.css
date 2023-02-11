@@ -15,7 +15,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column; 
-    transition: opacity 4s;
 }
 
 .sidebar-link:hover{
