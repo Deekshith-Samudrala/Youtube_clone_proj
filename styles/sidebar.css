@@ -3,8 +3,8 @@
     top:55px;
     left:0;
     bottom: 0;
-    width:72px;
-    background-color: white;
+    width:90px;
+    background-color: rgb(15,15,15);
     padding-top: 5px;
     z-index: 200;
 }
@@ -14,12 +14,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
+    transition: opacity 4s;
 }
 
 .sidebar-link:hover{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(43, 43, 43);
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .sidebar-link img{
@@ -31,4 +33,9 @@
     font-family: Roboto, sans-serif;
     font-size: 10px;
     
+}
+
+.sidebar-icon-name{
+    color: white;
+    font-size: 100%;
 }

@@ -2,12 +2,14 @@ p{
     font-family: 'Roboto', sans-serif;
     margin-top:0;
     margin-bottom: 0;
+    color: white;
+    font-weight: 400;
 }
 
 body{
     margin:0;
     padding-top: 60px;
     padding-left: 72px;
-    height: 3000px;
-    background-color: rgb(238, 232, 232);
+    height: 1000px;
+    background-color: rgb(15,15,15);
 }
